@@ -1,6 +1,4 @@
 let pago;
-let pago1;
-let pago2;
 let precio;
 let resultado;
 let salir;
