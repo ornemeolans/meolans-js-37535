@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>JavaScript</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="titulo_principal">6to Desafio</h1>
+    </header>
+
+    <div id="contenedor_principal">
+        <h4 id="titulo_info">CONCEPTOS BÁSICOS</h4>
+
+        <h5 id="titulo_descripcion">TRIÁNGULO DE LUZ</h5>
+        <p id="parrafo">Un concepto muy importante y si quieres hacerte con el modo manual y semimanual y manejarlos con
+            soltura,
+            necesitarás entender bien los 3 componentes de este triángulo. Diría que son los factores más influyentes en
+            cómo va a ser la fotografía final.</p>
+
+        <h5 id="titulo_descripcion_sec"> TRES ELEMENTOS DEL TRIÁNGULO DE LA LUZ</h5>
+        <p id="parrafo">Los tres elementos que componen el famoso triángulo de la luz son el ISO, la apertura, y la
+            velocidad de
+            obturación.<br>
+            <span class="negrita">ISO:</span> Es la sensibilidad del sensor a la luz, cuanto más elevado sea el valor
+            ISO que escojamos, más sensible
+            se volverá el sensor de nuestra cámara a la luz y por lo tanto captará más luz.<br>
+            <span class="negrita">Apertura:</span> Es el tamaño del diafragma, esto es, el agujero que hay dentro del
+            objetivo o lente, y que permite
+            que entre luz. Cuanto mayor sea la apertura, más luz entrará y será registrada en la cámara.<br>
+            <span class="negrita">Velocidad de obturación (o velocidad de disparo):</span> Es el tiempo durante el cual
+            la cámara se mantiene abierta
+            registrando la luz o foto. Generalmente son fracciones de segundo, lo que dura un disparo, pero puede ser
+            más extenso. De hecho, a velocidades de disparo más lentas, entra más luz a la cámara.<br>
+            La mezcla, en mayor o menor grado, de estos 3 factores es lo que nos da la foto final. Y lo que es más
+            importante: cada cambio en cualquiera de estos 3 factores impactará los otros 2, lo que quiere decir que, en
+            modo manual, no puedes modificar un factor de estos 3 sin tener en cuenta los otros 2. Esto, por fortuna, ya
+            lo hace la cámara por nosotros en el modo automático.
+        </p>
+
+        <h5>Triangulo de exposición y sus efectos</h5>
+        <div class="tarjeta">
+            <label for="beige">Triangulo</label>
+            <input type="radio" name="selector" id="tde" class="radiobutton" value="Triangulo de Exposición" checked>
+            <label for="negro">Efectos</label>
+            <input type="radio" name="selector" id="tdee" class="radiobutton" value="Efectos del Triangulo">
+        </div>
+        <img id="triangulo" class="imagen" src="assets/img/tde.jpg" alt="Triangulo de Exposición">
+        <img data-caman="brightness(10) contrast(30) saturation(-30)" data-caman-hidpi="assets/img/tdee.jpg"
+            src="path/to/image.jpg">
+    </div>
+
+    <script type="text/javascript" src="caman.full.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
