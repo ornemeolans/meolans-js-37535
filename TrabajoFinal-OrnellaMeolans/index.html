@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>JavaScript</title>
+</head>
+
+<body>
+    <header>
+        <h1>Simulador de Camara</h1>
+
+        <form>
+            <input type="button" value="P" onclick="">
+            <input type="button" value="A" onclick="">
+            <input type="button" value="S" onclick="">
+            <input type="button" value="M" onclick="">
+        </form>
+        <fieldset class="formSlider">
+            <legend class="applicationForm__text">ISO</legend>
+            <div class="__range __range-step">
+                <input value="1" type="range" max="7" min="1" step="1" list="ticks1">
+                <datalist id="ticks1">
+                    <option value="1">100</option>
+                    <option value="2">200</option>
+                    <option value="3">400</option>
+                    <option value="4">800</option>
+                    <option value="5">1600</option>
+                    <option value="6">3200</option>
+                    <option value="7">6400</option>
+                </datalist>
+            </div>
+        </fieldset>
+        <fieldset class="formSlider">
+            <legend class="applicationForm__text">Apertura</legend>
+            <div class="__range __range-step">
+                <input value="1" type="range" max="8" min="1" step="1" list="ticks1">
+                <datalist id="ticks1">
+                    <option value="1">f/2.8</option>
+                    <option value="2">f/4</option>
+                    <option value="3">f/5.6</option>
+                    <option value="4">f/8</option>
+                    <option value="5">f/10</option>
+                    <option value="6">f/14</option>
+                    <option value="7">f/18</option>
+                    <option value="8">f/22</option>
+                </datalist>
+            </div>
+        </fieldset>
+        <fieldset class="formSlider">
+            <legend class="applicationForm__text">Velocidad de Disparo</legend>
+            <div class="__range __range-step">
+                <input value="1" type="range" max="13" min="1" step="1" list="ticks1">
+                <datalist id="ticks1">
+                    <option value="1">1"</option>
+                    <option value="2">0.5"</option>
+                    <option value="3">1/4</option>
+                    <option value="4">1/8</option>
+                    <option value="5">1/15</option>
+                    <option value="6">1/30</option>
+                    <option value="7">1/60</option>
+                    <option value="8">1/125</option>
+                    <option value="9">1/250</option>
+                    <option value="10">1/500</option>
+                    <option value="11">1/1000</option>
+                    <option value="12">1/2000</option>
+                    <option value="13">1/4000</option>
+                </datalist>
+            </div>
+        </fieldset>
+        <input type="button" value="Tomar Foto" onclick="">
+    </header>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
